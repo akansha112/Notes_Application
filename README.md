@@ -1,3 +1,7 @@
+
+
+https://github.com/akansha112/Notes_Application/assets/95122024/cd0e240c-f370-4b79-884b-e1d0b2bf909d
+
 Design and develop a simple Notes Android app, which has the following features:
 • Use only 1 activity for the entire app. Use fragments for different screens.
 • When a user starts the app, a login screen appears (if the user is not logged in). Login can 
