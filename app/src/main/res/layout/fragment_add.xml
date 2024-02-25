@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/pink"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AddFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <TextView
+       android:id="@+id/addNoteHeading"
+       android:layout_width="wrap_content"
+       android:textColor="@color/black"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_marginTop="16dp"
+       android:text="@string/add_note"
+       android:textSize="24sp"
+       />
+    <ImageView
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/addNoteHeading"
+        android:layout_marginEnd="6dp"
+        android:src="@drawable/ic_done"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/titleEditText"
+        android:hint="@string/enter_the_title"
+        android:padding="12dp"
+        android:inputType="text"
+        android:textColor="@color/dark_blue"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/blue_border"
+
+        android:layout_below="@id/addNoteHeading"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        />
+    <EditText
+        android:textColor="@color/light_blue"
+        android:textColorHint="@color/black"
+        android:id="@+id/ContentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/enter_the_description"
+        android:gravity="top"
+        android:background="@drawable/blue_border"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_below="@id/titleEditText"
+        android:layout_marginTop="12dp"
+        android:inputType="text" />
+</RelativeLayout>

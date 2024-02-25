@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">NotesApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="web_client_id">873195003889-e0br5r7urklp6ip07dbeulmp3dj05l3o.apps.googleusercontent.com</string>
+    <string name="enter_the_title">Enter the title</string>
+    <string name="enter_the_description">Enter the description</string>
+    <string name="add_note">Add Note</string>
+    <string name="save_all_your_notes_here">Save All Your Notes Here...</string>
+    <string name="fab_icon">fab_icon</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+</resources>
