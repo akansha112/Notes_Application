@@ -53,7 +53,12 @@ public class HomeFragment extends Fragment {
 
     private void navigateToAddFragment() {
         NavController navController = Navigation.findNavController(requireActivity(), R.id.fragmentContainerView);
+        // Clear the back stack, excluding the current fragment
+        // Clear the back stack inclusive of login fragment
+        navController.popBackStack(R.id.loginFragment, false);
         navController.navigate(R.id.action_homeFragment_to_addFragment);
+
+
     }
 
     @Override
